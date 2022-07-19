@@ -1,0 +1,20 @@
+body{
+    background-color: #26292e;
+}
+.cont{
+ width: 220px;
+  height: 100px;
+  border-style: solid;
+  border-color: #e58947;
+  border-radius: 3px 20px 3px 20px ;
+  padding: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -100px;
+  margin-top: -50px;
+}
+h1,a{
+    color: #fab685;
+    text-decoration: none;
+  }  

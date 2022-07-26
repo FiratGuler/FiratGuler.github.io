@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.background{
+    background-image: url(Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    font-family: 'Rubik Moonrocks', cursive;
+    color: #FEE715;
+    
+}
+.display-1{
+    font-size: 15vh !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+
+        background-image: url(Mobile_Background.png) !important;
+        
+    }
+    #Mobil{
+       background-color: #191919;
+       width: 100%;
+        
+    }
+    h1 {
+      padding: 10px;
+        
+    }
+    .display-1{
+       
+        font-size: 8vh !important;
+    }
+  }

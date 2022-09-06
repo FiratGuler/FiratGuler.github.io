@@ -1,46 +1,157 @@
-*{
-    margin: 0;
+body {
+    background-color: #191919 !important;
     padding: 0;
-}
-.background{
-    background-image: url(Background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-}
-::-webkit-scrollbar {
-    display: none;
-    visibility: hidden;
-    opacity: 0
+    margin: 0;
 }
 
-h1 {
+.home {
+    z-index: 3;
+    position: relative;
+    top: 150px;
+}
+.info a {
+    color: rgb(159, 159, 159);
+    text-decoration: none;
+    margin-right: 10px;
+}
+.info a:hover{
+    color: #fee715cc;
+}
+
+
+.name {
     font-family: 'Rubik Moonrocks', cursive;
+    font-size: 13vh !important;
     color: #FEE715;
+}
+
+.footer {
+    height: 45%;
+    width: 100%;
+    background-color: #FEE715;
+   
+}
+.corner-cover {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #191919 50%, rgba(22, 27, 34, 0) 0%, transparent);
+}
+
+.head {
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    background-image: url(head_pixel.png);
+    background-size: 100px;
+    animation: head_animation 30s infinite linear;
+}
+
+@keyframes head_animation {
+    0% {
+        background-position-x: 0;
+        background-position-y: 0;
+    }
+
+    100% {
+        background-position-x: -1000px;
+        background-position-y: 1190px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .lel{
+    background-color: #191919;
+    color: white;
     
 }
-.display-1{
-    font-size: 15vh !important;
+.waw{
+    position: absolute;
+    right: 30%;
+    bottom: 50%;
+  
+  
 }
+.display-1{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-size: 15vh !important;
+    color: #FEE715;
+}
+.head-div{
+    display: block;
+    color: aqua;
+    position: absolute;
+  bottom: 0;
+  right: 0;
+   
+    font-size: 200px;
+    text-align: center;
+    z-index: 2  ;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background-color: #fee71500;
+    border-top: 600px solid rgb(255, 0, 0);
+    border-right: 800px solid transparent;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.corner-cover{
+    width: 100%;
+    height: 0;
+    border-style: solid;
+    border-width: 300px 600px 0 0;
+    border-color: #f10000 transparent transparent transparent;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+   
+}
+.head-div {
+    z-index: 1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 
-
-@media only screen and (max-width: 600px) {
-    body {
-
-        background-image: url(Mobile_Background.png) !important;
-        
-    }
-    #Mobil{
-       background-color: #191919;
-       width: 100%;
-        
-    }
-    h1 {
-      padding: 10px;
-        
-    }
-    .display-1{
-       
-        font-size: 8vh !important;
-    }
-  }
+    width: 100%;
+    height: 50%;
+    text-align: center;
+    
+} */

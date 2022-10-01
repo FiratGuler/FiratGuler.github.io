@@ -1,0 +1,20 @@
+.phone_icon{
+    
+    position: fixed;
+    bottom: 6%;
+    right: 8%;
+}
+
+.contact_btn{
+    background-color: transparent;
+    border: none;
+}
+/* CONTENT */
+
+.content_btn{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: tomato;
+    border: none;
+}

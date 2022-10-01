@@ -43,7 +43,7 @@ body {
     z-index: 1;
     height: 100%;
     width: 100%;
-    background-image: url(head_pixel.png);
+    background-image: url(head_background.png);
     background-size: 100px;
     animation: head_animation 30s infinite linear;
 }

@@ -9,11 +9,11 @@
       rel="stylesheet"
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
-    />
+      />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
-    />
+      />
     <link href="style.css" rel="stylesheet" />
   </head>
   <body>
@@ -21,26 +21,24 @@
 
     <div class="container">
       <div class="row p-4 text-center">
-        <div class="col-2"><img src="logo.png" width="75" /></div>
-        <div class="col-8"><h1>Karga Led</h1></div>
+        <div class="col-2"><img src="logo.png" width="150" /></div>
+        <div class="col-8 p-3 logoNameEffect"><h2>KARGALED</h2></div>
         <div class="col-2"></div>
       </div>
       <!-- NAVBAR -->
 
       <!-- CONTENT -->
-      <div class="contens row">
-        
-      </div>
+      <div class="contens row"></div>
 
       <!-- CONTENT -->
 
-      <!-- PHONE ICON -->
+      <!-- contact-->
       <div class="row">
         <div class="col">
-          <div class="phone_icon ">
+          <!-- <div class="phone_icon">
             <div class="btn-group dropup">
                 <button type="button" class="data-toggle contact_btn" data-bs-toggle="dropdown" aria-expanded="false">
-                    <i class="bi bi-chat-dots fs-1 text-dark"></i>
+                    <i class="bi bi-chat-dots fs-1"></i>
                 </button>
                 <ul class="dropdown-menu border-0 bg-info">
                   <li><i class="bi bi-telephone-fill"></i> <a style="text-decoration: none; color: black;" href="tel:123-456-7890">123-456-7890</a></li>
@@ -49,31 +47,37 @@
                 </ul>
               </div>
             
+          </div> -->
+
+
+          <button class="btn btn-dark text-white contact_icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom"><i class="bi bi-envelope fs-3"></i></button>
+
+          <div class="offcanvas offcanvas-bottom text-white" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+            <div class="offcanvas-header ">
+              <h5 class="offcanvas-title  float-end" id="offcanvasBottomLabel"></h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"> </button>
+            </div>
+            <div class="offcanvas-body small ">
+              <h5 class="pb-2">BİZİMLE İLETİŞİME GEÇİN</h5>
+              <ul style="list-style-type:none ;">
+                <li class="pb-2">
+                  <i class="bi bi-telephone-fill"></i> 
+                  <a style="text-decoration: none; color: white;" href="tel:123-456-7890">123-456-7890</a>
+                </li>
+                <li><i class="bi bi-envelope"></i><a> Bana mail gönder !</a></li>
+              </ul>
+            </div>
           </div>
+
+
+          
+          <!-- contact-->
         </div>
-      </div>
 
-      <!-- PHONE ICON -->
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
-    <script src="ContentGenerator.js"></script>
-  </body>
-</html>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+          crossorigin="anonymous"></script>
+        <script src="ContentGenerator.js"></script>
+      </body>
+    </html>

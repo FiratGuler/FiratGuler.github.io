@@ -3,7 +3,7 @@ const menu = [
     id: 1,
     title: "Title",
     category: "Dog",
-    img: "https://picsum.photos/id/237/100/50",
+    img: "https://picsum.photos/id/235/100/50",
     desc: `Cok uzun acıklamalar`,
   },
   {
@@ -18,7 +18,7 @@ const menu = [
     title: "Title",
     category: "Dog",
     img: "https://picsum.photos/id/237/100/50",
-    desc: `Cok uzun acıklamalar`,
+    desc: `Değişim.`,
   },
   {
     id: 4,
@@ -117,21 +117,21 @@ let menuDOM = document.querySelector('.contens')
 
 const createProducts = (content) => {
   let html = `
-    <div class="menu-items col-6 col-lg-3 pt-5">
-    <div class="card" >
-        <img src="${content.img}" class="card-img-top" alt="${content.title}">
-            <div class="card-body p-0">
-                <h5 class="card-title">${content.title}</h5>
-                <p class="card-text">${content.desc}</p>
+  <div class="menu-items col-6 col-lg-3 pt-5 ">
+  <div class="card card_shadow border-1 border-dark" >
+      <img src="${content.img}" class="card-img-top" alt="${content.title}">
+          <div class="card-body p-0">
+              <h5 class="card-title">${content.title}</h5>
+              <p class="card-text">${content.desc}</p>
 
-                
-                <div class="d-sm-block">
-                <button class="btn btn-dark w-50  rounded-0  border-end-1 border-dark" type="button">Trendyol</button>
-                <button class="btn btn-danger w-50 float-end  rounded-0" type="button">Hepsiburada</button>
-              </div>
-                    
+              
+              <div class="d-sm-block">
+              <button class="btn btn-dark w-100  rounded-0 content_btn" type="button">Trendyol</button>
+              <button class="btn btn-dark w-100 float-end  rounded-0 " type="button">Hepsiburada</button>
             </div>
-    </div>
+                  
+          </div>
+  </div>
 </div>  
     `
   return html;

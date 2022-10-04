@@ -7,7 +7,7 @@ body {
 .home {
     z-index: 3;
     position: relative;
-    top: 150px;
+    top: 100px;
 }
 .info a {
     color: rgb(159, 159, 159);
@@ -60,6 +60,12 @@ body {
     }
 
 
+}
+
+@media (max-width: 400px) {
+    .home{
+        top: 30px;
+    }
 }
 
 
